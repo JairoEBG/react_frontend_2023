@@ -7,9 +7,6 @@ export const MainPage = () => {
     <div>      
       <h1 className="Main-page">Se encuentra en la pagina principal 
         <p>(Inicie sesión para continuar)</p>
-        <Link href={'/orders'} style={{ textDecorationLine: 'underline' }}>
-        Ver ordenes
-        </Link>
       </h1>    
     </div>
   )
